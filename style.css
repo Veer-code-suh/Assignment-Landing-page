@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Default styles for larger screens */
+.accordion {
+  margin-top: 3rem;
+}
+
+.accordion-button {
+  color: aquamarine;
+  font-weight: 700;
+}
+
+.head {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.headbox {
+  margin-top: 5rem;
+}
+
+.img {
+  width: 120%;
+  height: 100%;
+}
+
+span {
+  color: blue;
+}
+
+.para {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 1.5rem;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 5px;
+  color: rgb(56, 155, 230);
+  background-color: rgba(214, 238, 246, 0.93);
+}
+
+.titlebox {
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.line {
+  background-color: blue;
+  height: 0.5rem;
+  width: 15rem;
+}
+.whatsapp {
+  background-color: rgb(4, 143, 4);
+  padding: 7px;
+  width: fit-content;
+  height: 40px;
+  border-radius: 20px;
+  left: 90%;
+  position: fixed;
+  align-items: center;
+  color: white;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+  }
+
+  .para {
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+
+  .titlebox {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .line {
+    width: 5rem;
+    margin: 0 auto;
+  }
+}
